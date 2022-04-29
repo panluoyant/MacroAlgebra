@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="bigNum">
+      <UniqueIdentifier>{dec256d2-cb9e-423c-b887-ce6b59d47f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algebra">
+      <UniqueIdentifier>{3269a91e-0ff3-4aaf-b90d-64a618f78f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algebra\Number">
+      <UniqueIdentifier>{204109e0-faa9-46fd-b214-f3530d0623fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algebra\aggregate">
+      <UniqueIdentifier>{ef3f4f80-f199-4f77-8ffd-bff5a7e74126}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MacroAlgebra.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bigNum.cpp">
+      <Filter>bigNum</Filter>
+    </ClCompile>
+    <ClCompile Include="compare.cpp">
+      <Filter>bigNum</Filter>
+    </ClCompile>
+    <ClCompile Include="adder.cpp">
+      <Filter>bigNum</Filter>
+    </ClCompile>
+    <ClCompile Include="multiply.cpp">
+      <Filter>bigNum</Filter>
+    </ClCompile>
+    <ClCompile Include="divide.cpp">
+      <Filter>bigNum</Filter>
+    </ClCompile>
+    <ClCompile Include="mod.cpp">
+      <Filter>bigNum</Filter>
+    </ClCompile>
+    <ClCompile Include="pow.cpp">
+      <Filter>bigNum</Filter>
+    </ClCompile>
+    <ClCompile Include="expression.cpp">
+      <Filter>Algebra\Number</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bigNum.hpp">
+      <Filter>bigNum</Filter>
+    </ClInclude>
+    <ClInclude Include="basic.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parameter.hpp">
+      <Filter>Algebra\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="expression.hpp">
+      <Filter>Algebra\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="mavector.hpp">
+      <Filter>Algebra\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="macomplex.hpp">
+      <Filter>Algebra\Number</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
